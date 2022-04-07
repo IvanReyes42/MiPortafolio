@@ -1,4 +1,4 @@
-$(function(){
+$$(function(){
     $('[data-toggle="tooltip"]').tooltip()  
 
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {

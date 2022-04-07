@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/AvatarTran.ico">
     <title>Ivan Reyes</title>
 </head>
-<body>
+<body data-target="#navbarTogglerDemo01" data-spy="scroll" data-offset="56">
 
 <!--HEADER-->
 <head id="Encabezado">
@@ -122,10 +122,66 @@
 <!--PROYECTOS-->
 
 <section class="mt-4 pt-5" id="Proyectos">
+
+  <div class="container">
+    <div class="row">
+        <div class="col text-center text-uppercase">
+
+             <h2>Proyectos De desarollo Web</h2>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-12 mb-4 col-md-6 col-lg-4 ">
+            <div class="card">
+                <img src="images/BoxBook.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mi Biblioteca</h5>
+                  <p class="card-text">Un pequeño sitio web el cual permite registrar usuarios, y cada uno de estos puede registrar sus propios libros, por medio del ISBN haciendo uso de una API de Google, el usuario ademas de registrar libros puede
+                    generar una reseña y asignar una calificación. Los libros registrados por los usuarios serán públicos para los demas usuarios los cuales pueden observar los detalles del libro así como su reseña y calificación también los usuarios pueden retroalimentar
+                  las reseñas agregando comentarios a cada libro.</p> <br> <br>
+                  <p class="card-text">Herramientas: Node Js, MySQL</p> <br> <br>
+                  <a href="https://github.com/IvanReyes42/BoxBook" class="btn boton">Ver Proyecto</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-12 mb-4 col-md-6 col-lg-4 ">
+            <div class="card">
+                <img src="images/Preguntas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Foro de Preguntas y Respuestas</h5>
+                  <p class="card-text">Un sitio web donde se pueden registrar usuarios con el fin de publicar problemas o preguntas acerca de programación, los usuarios al publicar la problemática deben agregar una descripción, imagen alusiva y una categoría de acuerdo a la problematíca.
+                    La preguntas publicas podrán ser respondidas por otros usuarios y asignar una calificación a cada una de estas respuestas de forma personalizada para cada usuario, ademas los usuarios pueden hacer una búsqueda de problemas por medio de un buscador de categorías,
+                    los usuarios que no se encuentren logeados podrán visualizar las problematícas pero no podran calificarlas. 
+                  </p>
+                  <p class="card-text">Herramientas: Node Js, MySQL</p><br>
+                  <a href="https://github.com/IvanReyes42/ForoDeRespuestas" class="btn boton">Ver Proyecto</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-12 mb-4 col-md-6 col-lg-4 ">
+            <div class="card">
+                <img src="images/Laboratorio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Control Laboratorios de computo</h5>
+                  <p class="card-text">Un sistema web, en donde se encuentran dos tipos de usuarios Administradores y técnicos, donde el administrador tiene el control de agregar, editar y eliminar laboratorios de cómputo así como asignar equipos de computo a cada uno de estos. El administrador
+                    también puede editar y eliminar equipos de cómputo. El usuario técnico tiene la función de observar laboratorios y equipos de cómputo para solicitar un mantenimiento a los equipos que lo requieran, los mantenimientos se mantienen en espera hasta ser autorizados por el administrador,
+                    como adicional todos los mantenimientos generan un reporte en formato PDF. 
+                  </p> <br>
+                  <p class="card-text">Herramientas: Node Js, MySQL</p>
+                  <a href="https://github.com/IvanReyes42/LaboratorioDeComputo" class="btn boton">Ver Proyecto</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div>
+
+
   <div class="container">
       <div class="row">
           <div class="col text-center text-uppercase">
-            <small>Ultimos</small>
                <h2>Proyectos De desarollo</h2>
           </div>
       </div>
@@ -134,7 +190,7 @@
               <div class="card">
                   <img src="images/Tacos.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Compilador</h5>
+                    <h5 class="card-title">Tacos Don Alfred</h5>
                     <p class="card-text">Sistema de control de punto de venta e inventario multiplataforma (web, desktop), el cual ayuda a llevar un mejor control de las ventas y compras realizadas en el puesto de tacos Don Alfred.</p>
                     <p class="card-text">Herramientas: C#, Laragon (php) y MySql</p> <br>
                     <a href="https://gitlab.com/IvanReyes42/tacosdonalfredweb" class="btn boton">Ver Proyecto</a>
